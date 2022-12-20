@@ -26,9 +26,6 @@ for j in range(len(distinctNotDivisibleBy)):
     if(notDivisibleBy.count(distinctNotDivisibleBy[j]) == lenArray):
         answer = distinctNotDivisibleBy[j]
         break
-    else:
-        pass
-        # break
 
 if(answer != 0 ): print("Answer :", answer)
 
